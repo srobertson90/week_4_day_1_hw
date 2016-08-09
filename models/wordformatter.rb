@@ -6,7 +6,7 @@ class WordFormatter
   end
 
   def camelcase(input)
-    input.split.map{|word| word.capitalize}.join('')
+    input.split.map{|word| word.capitalize}.join
   end
 
 end

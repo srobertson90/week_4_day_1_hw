@@ -5,8 +5,16 @@
   <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
-  <h3>Stuart Robertson</h3>
-  <a href="/">Home</a> - <a href="/address">Address</a> - <a href="/formatter">Formatter</a>
+  <div id="header">
+  <h3 id = "name">Stuart Robertson</h3>
+  <h3 id = "links"><a href="/">Home</a> - <a href="/address">Address</a> - <a href="/formatter">Formatter</a></h3>
+  </div>
+  <div class="left"></div>
+      <div class="right">
   <%= yield %>
+  </div>
+  <div id="footer">
+        <h3> insert address here | Tel: insert number here</h3>
+      </div>
 </body>
 </html>
